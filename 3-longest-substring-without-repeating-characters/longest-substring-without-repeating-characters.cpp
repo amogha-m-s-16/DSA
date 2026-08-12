@@ -3,14 +3,13 @@ public:
     int lengthOfLongestSubstring(string s) {
         int left = 0;
         int maxLength = 0;
-        unordered_set<char> charSet;
+        unordered_map<char, int> mpp;
         for(int right = 0; right < s.size(); right++) {
-            while(charSet.find(s[right]) != charSet.end()) {
-                charSet.erase(s[left]);
-                left++;
-            }
-            charSet.insert(s[right]);
+            char c = s[right];
+            if(mpp.find(c) != mpp.end() && mpp[c] >= left) left = mpp[c] + 1;
+
             maxLength = max(maxLength, right - left + 1);
+            mpp[c] = right;
         }
         return maxLength;
     }
