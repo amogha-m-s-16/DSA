@@ -3,13 +3,13 @@ public:
     int lengthOfLongestSubstring(string s) {
         int left = 0;
         int maxLength = 0;
-        unordered_map<char, int> mpp;
-        for(int right = 0; right < s.size(); right++) {
-            char c = s[right];
-            if(mpp.find(c) != mpp.end() && mpp[c] >= left) left = mpp[c] + 1;
+        
+        vector<int> lastInd(128, -1);
 
-            maxLength = max(maxLength, right - left + 1);
-            mpp[c] = right;
+        for(int i = 0; i < s.size(); i++) {
+            left = max(left, lastInd[s[i]] + 1);
+            maxLength = max(maxLength, i - left + 1);
+            lastInd[s[i]] = i;
         }
         return maxLength;
     }
