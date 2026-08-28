@@ -53,56 +53,7 @@ Here you'll find implementations, practice problems, optimized solutions, and no
 
 ---
 
-## 📚 Topics Covered
 
-### 🟢 Fundamentals
-
-* [ ] Time & Space Complexity
-* [ ] Recursion
-* [ ] Bit Manipulation
-* [ ] Mathematics
-* [ ] Prefix Sum
-* [ ] Two Pointers
-* [ ] Sliding Window
-
-### 🔵 Data Structures
-
-* [ ] Arrays
-* [ ] Strings
-* [ ] Linked Lists
-* [ ] Stack
-* [ ] Queue
-* [ ] Deque
-* [ ] Hash Tables
-* [ ] Trees
-* [ ] Binary Search Trees
-* [ ] Heaps / Priority Queue
-* [ ] Tries
-* [ ] Graphs
-
-### 🟣 Algorithms
-
-* [ ] Searching
-* [ ] Binary Search
-* [ ] Sorting
-* [ ] Recursion & Backtracking
-* [ ] Greedy Algorithms
-* [ ] Divide & Conquer
-* [ ] Dynamic Programming
-* [ ] Graph Algorithms
-
-### 🔴 Advanced
-
-* [ ] BFS / DFS
-* [ ] Topological Sort
-* [ ] Shortest Path
-* [ ] Minimum Spanning Tree
-* [ ] Disjoint Set Union
-* [ ] Advanced Dynamic Programming
-* [ ] Segment Tree
-* [ ] Fenwick Tree
-
----
 
 # 🧩 Problem-Solving Patterns
 
@@ -123,39 +74,7 @@ One of the main goals of this repository is to recognize **patterns instead of m
 
 ---
 
-# 📊 Progress Tracker
 
-### Data Structures
-
-| Topic       | Progress |
-| ----------- | :------: |
-| Arrays      |    🟢    |
-| Strings     |    🟢    |
-| Linked List |    🟡    |
-| Stack       |    🟡    |
-| Queue       |    🟡    |
-| Hashing     |    🟡    |
-| Trees       |    🔴    |
-| Heap        |    🔴    |
-| Graphs      |    🔴    |
-| Trie        |    🔴    |
-
-### Algorithms
-
-| Algorithm           | Progress |
-| ------------------- | :------: |
-| Linear Search       |    🟢    |
-| Binary Search       |    🟢    |
-| Sorting             |    🟢    |
-| Recursion           |    🟡    |
-| Backtracking        |    🟡    |
-| Greedy              |    🔴    |
-| Graph Algorithms    |    🔴    |
-| Dynamic Programming |    🔴    |
-
-> 🟢 Completed    🟡 Learning    🔴 Yet to Explore
-
----
 
 # 🏆 Problem-Solving Stats
 
@@ -163,11 +82,10 @@ One of the main goals of this repository is to recognize **patterns instead of m
 
 | 📌 Metric       | 🔢 Count |
 | --------------- | -------: |
-| Problems Solved |  **XX+** |
-| Easy            |   **XX** |
-| Medium          |   **XX** |
-| Hard            |   **XX** |
-| Topics Covered  |   **XX** |
+| Problems Solved |  **100+** |
+| Easy            |   **39** |
+| Medium          |   **58** |
+| Hard            |   **7** |
 | Languages       |  **C++** |
 
 </div>
@@ -206,82 +124,6 @@ Every solution focuses on understanding:
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge\&logo=visualstudiocode\&logoColor=white)
 
 </div>
-
----
-
-# 🎯 Learning Strategy
-
-```text
-                    PROBLEM
-                       │
-                       ▼
-               Understand it
-                       │
-                       ▼
-              Find the pattern
-                       │
-                       ▼
-             Think of brute force
-                       │
-                       ▼
-               Optimize solution
-                       │
-                       ▼
-             Analyze complexity
-                       │
-                       ▼
-                 CODE IT
-                       │
-                       ▼
-                 TEST IT
-                       │
-                       ▼
-               🚀 IMPROVE IT
-```
-
----
-
-# 🔥 My DSA Philosophy
-
-> **Understand → Implement → Analyze → Optimize → Repeat**
-
-I believe DSA is not about memorizing hundreds of solutions.
-
-It's about developing the ability to look at a problem and think:
-
-```text
-"What is the pattern?"
-        ↓
-"Can I simplify it?"
-        ↓
-"Can I optimize it?"
-        ↓
-"What is the complexity?"
-        ↓
-"Can I do better?"
-```
-
----
-
-# 📈 Growth Over Time
-
-```text
-2026
-│
-├── 🌱 Fundamentals
-│
-├── 🧱 Data Structures
-│
-├── ⚙️ Algorithms
-│
-├── 🧩 Problem Solving
-│
-├── 🧠 Advanced DSA
-│
-└── 🚀 Competitive Programming
-```
-
-This repository will continuously evolve as I learn and solve more problems.
 
 ---
 
